@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campuses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-size: 36px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 180px 180px 180px;
+            gap: 15px;
+            width: 85%;
+            margin: auto;
+        }
+
+        .grid-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .center {
+            grid-column: 2;
+            grid-row: 1 / 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Amrita Eductional Campuses</h1>
+
+    <div class="grid-container">
+        <img src="https://webfiles.amrita.edu/2014/02/Div8nr6Q-amritapuri-campus.jpg">
+        <img src="https://webfiles.amrita.edu/2020/06/hyKlkquw-790-100.jpg">
+
+        <img src="https://webfiles.amrita.edu/2020/08/G4JiCpQi-790-75.jpg" class="center">
+
+        <img src="https://webfiles.amrita.edu/2024/10/amaravati-campus-banner.jpg">
+        <img src="https://webfiles.amrita.edu/2022/05/vYMb94yV-amrita-admission-chennai-campus.jpg">
+
+        <img src="https://webfiles.amrita.edu/2023/04/school-of-medicine-faridabad.jpg">
+        <img src="https://webfiles.amrita.edu/2022/12/ilDI4G1S-kochi-campus-nursing.jpg">
+        <img src="https://webfiles.amrita.edu/2022/05/KlsdCLuq-amrita-admission-mysuru-campus.jpg">
+    </div>
+
+</body>
+</html>
